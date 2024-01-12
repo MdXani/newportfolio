@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Francois+One&family=Oswald&display=swap');
+*{
+    margin:0;
+}
+.container{
+	display:flex;
+    justify-content: center;
+}
+
+.nav-items{
+	display:flex;
+    font-family: "Rubik", sans-serif;
+}
+.nav-items li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-items li a:hover{
+    color: #4458dc;
+}
+.nav-items li a:active{
+    color: #4458dc;
+}
+
+.i1{
+    margin-left:-4rem;
+    cursor: pointer; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.nav-items li{
+	margin: 2rem;
+	list-style: none;
+	font-size: 16px;
+}
+li{
+   cursor: pointer;
+   font-family: 'Oswald', sans-serif;
+   
+}
+.hover-color:hover{
+    color: #4458dc;
+    transition: 1s;
+}
+
+.service{
+    background-image:linear-gradient(to left, rgb(102, 94, 211),#6f44bd);
+    width: 50rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.5rem;
+    margin-top: 8rem;
+}
+.service h2{
+    font-size: 50px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px 
+}
+.service p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.service a{
+    text-decoration: none;
+    color: white;
+    
+}
+.service a:hover{
+    color: white;
+}
+.service a:active{
+    color: white;
+}
+.service a:visited{
+    color: white;
+}
+
+.p6{
+    font-size: 38px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+}
+.p7{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.d1container{
+    display: grid;
+    grid-template-columns: repeat(4,16vw);
+    grid-template-rows: repeat(4,6vw);
+    gap: 25px;
+    text-align: center;
+    cursor: pointer;
+    width: 70rem;
+    height: 20rem;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 1rem;
+    background-color: #f9f9fd;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 1rem;
+    background-color: #f9f9fd;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.three{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 1rem;
+    background-color: #f9f9fd;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 1rem;
+    background-color: #f9f9fd;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.one h4{
+    margin-bottom: 20px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.two h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.three h4{
+    margin-bottom: 20px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.four h4{
+    margin-bottom: 20px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.one p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.two p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.three p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.four p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.d1container .one:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background-color: white;
+}
+.d1container .two:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background-color: white;
+}
+.d1container .three:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background-color: white;
+}
+.d1container .four:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background-color: white;
+}
+
+
+.p9{
+    font-size: 36px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11rem;
+}
+.p10{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    background-image:linear-gradient(to left, rgb(113, 106, 211),#6f44bd);
+    width: 70rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 10rem;
+}
+.email h2{
+    color: white;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+
+}
+.email p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+}
+.email input{
+    width: 23rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 3rem;
+    border-radius: 4px;
+    padding: 0 25px;
+    color: #ffffff;
+    
+}
+.email ::placeholder{
+    color: #ffffff;
+
+}
+.email button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+    
+}
+.lastlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lastlogo img{
+    cursor: pointer;
+}
+
+.lastlogo h1{
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.icons{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    color: #788489;
+    font-size: 20px;
+    
+}
+.icons a{
+    color: #788489;
+}
+.icons a:hover{
+    color: #6f42c1;
+}
+.icons a:active{
+    color: #6f42c1;
+}
+.nav-items a:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: .2rem;
+    background-color: #6f42c1;
+    transition: 0.5s ease-in;
+}
+
+.nav-items a {
+color: black;
+}
+
+.nav-items a:hover:after{
+    width: 100%;
+}
+
+.nav-items .hide{
+    position: absolute;
+    top: 12%;
+    left: 58%;
+    line-height: 15px;
+    min-width: 200px;
+    text-align: left;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.nav-items .hide:hover{
+    opacity: 1;
+}
+
+.nav-items .hide .link1:hover:after{
+    width: 40%;
+}
+.nav-items .hide .link2:hover:after{
+    width: 70%;
+}
+
+
+
+.nav-items .hide1{
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    line-height: 15px;
+    min-width: 200px;
+    text-align: left;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.nav-items .hide1:hover{
+    opacity: 1;
+}
+
+.nav-items .hide1 .link1:hover:after{
+    width: 20%;
+}
+.nav-items .hide1 .link2:hover:after{
+    width: 52%;
+}

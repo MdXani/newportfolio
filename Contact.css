@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Francois+One&family=Oswald&display=swap');
+*{
+    margin:0;
+}
+.container{
+	display:flex;
+    justify-content: center;
+    
+}
+
+.nav-items{
+	display:flex;
+    font-family: "Rubik", sans-serif;
+}
+.nav-items li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-items li a:hover{
+    color: #4458dc;
+}
+.nav-items li a:active{
+    color: #4458dc;
+}
+
+.i1{
+    margin-left:-4rem;
+    cursor: pointer; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.nav-items li{
+	margin: 2rem;
+	list-style: none;
+	font-size: 16px;
+}
+li{
+   cursor: pointer;
+   font-family: 'Oswald', sans-serif;
+   
+}
+.hover-color:hover{
+    color: #4458dc;
+    transition: 1s;
+}
+
+.contactus{
+    background-image:linear-gradient(to left, rgb(102, 94, 211),#6f44bd);
+    width: 50rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 8rem;
+}
+.contactus h2{
+    font-size: 50px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px 
+}
+.contactus p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.contactus a{
+    text-decoration: none;
+    color: white;
+    
+}
+.contactus a:hover{
+    color: white;
+}
+.contactus a:active{
+    color: white;
+}
+.contactus a:visited{
+    color: white;
+}
+.mdiv{
+    display: flex;
+    margin-left: 18rem;
+    margin-top: -12.5rem;
+}
+.btn1{
+    width: 200px;
+    height:50px;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border-radius: 5px;
+    border: 2px solid #4458dc;
+    font-size: 15px;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+   color: white;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+
+.btn1:hover{
+    cursor: pointer;
+    border: 2px solid #854fee;
+    background: #fff !important;
+    color: black !important;
+}
+.info-container{
+    
+    width: 65rem;
+    height: 30rem;
+    margin-top: 12rem;
+}
+.info-container .di1 i{
+    position: absolute;
+    font-size: 23px;
+    background: -webkit-linear-gradient(90deg, #4458dc , #854fee );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.info-container .di2 i{
+    position: absolute;
+    font-size: 23px;
+    background: -webkit-linear-gradient(90deg, #4458dc , #854fee );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.info-container .di3 i{
+    position: absolute;
+    font-size: 23px;
+    background: -webkit-linear-gradient(90deg, #4458dc , #854fee );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.info-container h1{
+    margin-left: 3rem;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+}
+.info-container p{
+    margin-left: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #777777;
+    font-size: 15px;
+    margin-top: 0.5rem;
+}
+.info-container .di1{
+    margin-top: 1.5rem;
+}
+.info-container .di2{
+    margin-top: 1.5rem;
+}
+.info-container .di3{
+    margin-top: 1.5rem;
+}
+
+.boxx .box1 input{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    margin-top: 1rem;
+    display: flex;
+    padding-left: 20px;
+    width: 23rem;
+    height: 2rem;
+}
+
+.boxx .box2 input{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    margin-top: 1rem;
+    display: flex;
+    padding-left: 20px;
+    width: 23rem;
+   
+    height: 2rem;
+}
+
+.boxx .box3 input{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    margin-top: 1rem;
+    padding-left: 20px;
+    display: flex;
+    width: 23rem;
+    
+    height: 2rem;
+}
+.boxx1 input{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    width: 23rem;
+    padding-left: 20px;
+    height: 8.4rem;
+}
+.m1 img{
+    width: 64rem;
+    height: 27rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    opacity: 0.9;
+    
+}
+
+.lastlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    
+}
+.lastlogo img{
+    cursor: pointer;
+}
+
+.lastlogo h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: -1rem;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.icons{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 24rem;
+    margin-bottom: 4rem;
+    color: #788489;
+    font-size: 20px;
+   
+    
+}
+.icons a{
+    color: #788489;
+}
+.icons a:hover{
+    color: #6f42c1;
+}
+.icons a:active{
+    color: #6f42c1;
+}
+
+.nav-items a:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: .2rem;
+    background-color: #6f42c1;
+    transition: 0.5s ease-in;
+}
+
+.nav-items a {
+    color: black;
+}
+
+.nav-items a:hover:after{
+    width: 100%;
+}
+
+.nav-items .hide{
+    position: absolute;
+    top: 12%;
+    left: 58%;
+    line-height: 15px;
+    min-width: 200px;
+    text-align: left;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.nav-items .hide:hover{
+    opacity: 1;
+}
+
+.nav-items .hide .link1:hover:after{
+    width: 40%;
+}
+.nav-items .hide .link2:hover:after{
+    width: 70%;
+}
+
+
+
+.nav-items .hide1{
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    line-height: 15px;
+    min-width: 200px;
+    text-align: left;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.nav-items .hide1:hover{
+    opacity: 1;
+}
+
+.nav-items .hide1 .link1:hover:after{
+    width: 20%;
+}
+.nav-items .hide1 .link2:hover:after{
+    width: 52%;
+}
